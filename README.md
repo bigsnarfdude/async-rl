@@ -14,6 +14,11 @@ It uses Keras to define the deep q network (see model.py), OpenAI's gym library 
 * [gym's atari environment] (https://github.com/openai/gym#atari)
 * skimage
 * Keras
+To kick off training, run:
+```
+pip -r requirements.txt
+```
+
 
 ## Usage
 ### Training
