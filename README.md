@@ -1,6 +1,6 @@
 # Asyncronous RL in Tensorflow + Keras + OpenAI's Gym
 
-![](http://g.recordit.co/BeiqC9l70B.gif)
+![](https://github.com/bigsnarfdude/async-rl/blob/master/resources/breakout_.gif)
 
 This is a Tensorflow + Keras implementation of asyncronous 1-step Q learning as described in ["Asynchronous Methods for Deep Reinforcement Learning"](http://arxiv.org/pdf/1602.01783v1.pdf).
 
