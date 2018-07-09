@@ -286,7 +286,7 @@ def evaluation(session, graph_ops, saver):
     # Wrap env with AtariEnvironment helper class
     env = AtariEnvironment(gym_env=monitor_env, resized_width=FLAGS.resized_width, resized_height=FLAGS.resized_height, agent_history_length=FLAGS.agent_history_length)
 
-    for i_episode in xrange(FLAGS.num_eval_episodes):
+    for i_episode in range(FLAGS.num_eval_episodes):
         s_t = env.get_initial_state()
         ep_reward = 0
         terminal = False
