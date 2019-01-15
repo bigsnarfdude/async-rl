@@ -15,6 +15,8 @@ It uses Keras to define the deep q network (see model.py), OpenAI's gym library 
 * skimage
 * Keras
 ```
+virtualenv ENV
+source ENV/bin/activate
 pip -r requirements.txt
 ```
 
