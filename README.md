@@ -41,7 +41,7 @@ This is what my per-episode reward and average max q value curves looked like ov
 ### Evaluation
 To run a gym evaluation, turn the testing flag to True and hand in a current checkpoint file:
 ```
-python async_dqn.py --experiment breakout --testing True --checkpoint_path /tmp/breakout.ckpt-2690000 --num_eval_episodes 100
+python async_dqn.py --experiment breakout --testing True --checkpoint_path /tmp/checkpoints/breakout.ckpt-2690000 --num_eval_episodes 100
 ```
 After completing the eval, we can upload our eval file to OpenAI's site as follows:
 ```python
